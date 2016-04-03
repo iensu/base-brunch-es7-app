@@ -1,0 +1,22 @@
+{
+  "extends": "airbnb/base",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "rules": {
+    "comma-dangle": [2, "never"],
+    "max-len": [2, 120, 2],
+    "arrow-parens": [2, "always"],
+    "no-unused-expressions": 2
+  },
+  "env": {
+    "mocha": true
+  },
+  "globals": {
+    "global": true
+  }
+}
